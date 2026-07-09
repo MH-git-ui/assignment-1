@@ -51,7 +51,7 @@ header {
     color: #FFFFFF;
     text-align: center;
     padding-top: 140px;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('/images/banner.jpg');
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),url('./images/banner.jpg');
      height: 90vh;
       background-size: cover;
     background-position: center;
