@@ -52,8 +52,9 @@ header {
 }
 
 .hero-section {
+    max-width: 100%;
+    margin: auto;
     display: grid;
-
     grid-template-rows: repeat(2, 1fr);
     color: #FFFFFF;
     text-align: center;
@@ -175,7 +176,7 @@ header {
 
 }
 
-.pricing p {
+.pricing-p {
     margin-bottom: 50px;
     margin-top: 8px;
     color: #575757;
@@ -189,16 +190,90 @@ header {
     margin:auto;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    align-content: center;
+    
 }
 .price-card{
+    display: flex;
+    flex-direction:column;
     border:1px solid #E5E7EB;
-   
     margin: 10px;
+    padding: 25px;
+    border-radius: 10px;
 }
+.price-card-middle{
+    display: flex;
+    flex-direction:column;
+
+}
+.plan-name {
+    color: #888888;
+    font-size: 13px;
+    
+   
+}
+
+.price{
+    color: #0D1B2A;
+    font-weight: bold;
+    font-size: 44px;
+}
+.price-m{
+     color: #FFFFFF;
+    font-weight: bold;
+    font-size: 44px;
+}
+
+.per-m{
+     color: #FFFFFF;
+    font-weight: normal;
+    font-size: 13px;
+}
+.price-card ul,
+.ul-m{
+    margin-top: 20px;
+    border-top: 1px solid #E5E7EB;
+    padding-left:17px;
+    
+}
+
+.price-card li,
+.ul-m li{margin-top: 15px;
+    margin-bottom:18px;
+    font-size: 14px;
+    position:relative;
+    padding-left:1px;
+}
+
+.ul-m li{
+
+    color:#FFFFFF;
+}
+.price-card li{
+    color: #333333;
+}
+
+
+
+
+
+
+
+
+
 .price-card-middle{
     border:1px solid #E5E7EB;
     background-color: #0D1B2A;
-   
     margin: 10px;
+    padding: 25px;
+    border-radius: 10px;
+}
+.pro{
+    color: #93C5FD;
+    size: 13;
+    font-weight: normal;
+}
+1.price-card-middle .price-m{
+     color: #FFFFFF;
+    font-size: 44;
+    font-weight: bold;
 }
