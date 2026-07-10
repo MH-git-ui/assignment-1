@@ -89,17 +89,11 @@ header {
 
 }
 
-.primary-btn2 {
-    background-color: #1D4ED8;
-    padding: 15px 28px;
-    border-radius: 5px;
-    font-weight: bold;
-    font-size: 15px;
-    color: white;
-    border: none;
-    align-items: center;
-    cursor: pointer;
-}
+.primary-btn:hover {
+
+    background:#1c1d42;
+
+    color:white;}
 
 .speakers h2 {
     font-size: 56px;
@@ -294,6 +288,11 @@ header {
     align-items: center;
     cursor: pointer;
 }
+.btn-outline-left:hover {
+
+    background:#1c2742;
+
+    color:white;}
 
 .btn-outline-middle {
     margin-top: 15px;
@@ -308,6 +307,11 @@ header {
     align-items: center;
     cursor: pointer;
 }
+.btn-outline-middle:hover {
+
+    background:#1c2742;
+
+    color:white;}
 
 .btn-outline-right {
     margin-top: 15px;
@@ -322,36 +326,129 @@ header {
     align-items: center;
     cursor: pointer;
 }
+.btn-outline-right:hover {
 
-footer {
-    align-items: center;
-    align-content: center;
-    text-align: center;
-    background-color: #0D1B2A;
-    max-width: 100%;
-    height: 70px;
-    color: #FFFFFF;
-    font-size: small;
-    padding: auto;
-}
+    background:#1c2742;
 
-.footer-content {
-    display: flex;
-    justify-content: space-between;
-    max-width: 1400px;
-    margin: auto;
-}
+    color:white;}
 
-.footer-ul {
+footer{
 
-    list-style: none;
-    display: flex;
-    gap: 15px;
+    width:100%;
+    height: fit-content;
+
+    background:#0D1B2A;
+
+    padding:40px 70px;
 
 }
 
-.footer-ul li a {
+.footer-top{
 
-    text-decoration: none;
-    color: #FFFFFF;
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.logo{
+
+    color:white;
+
+    font-size:34px;
+
+    font-weight:bold;
+
+}
+
+.logo span{
+
+    display:inline-block;
+
+    width:10px;
+
+    height:32px;
+
+    margin-left:8px;
+
+    vertical-align:middle;
+
+}
+
+.social{
+
+    display:flex;
+
+    gap:12px;
+
+}
+
+.social a:hover{
+
+    background:#1c2742;
+
+    color:white;
+
+}
+
+hr{
+
+    border:none;
+
+    border-top:1px solid #26314c;
+
+    margin:40px 0 30px;
+
+}
+
+.footer-bottom{
+
+    display:flex;
+
+    justify-content:space-between;
+
+    align-items:center;
+
+}
+
+.footer-bottom p{
+
+    color:#8d98b3;
+
+    font-size:15px;
+
+}
+
+.footer-bottom strong{
+
+    color:white;
+
+}
+
+.links{
+
+    display:flex;
+
+    gap:30px;
+
+}
+
+.links a{
+
+    text-decoration:none;
+
+    color:#8d98b3;
+
+    font-size:15px;
+
+    
+
+}
+
+.links a:hover{
+
+    color:white;
+
 }
