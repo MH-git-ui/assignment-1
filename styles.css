@@ -272,7 +272,7 @@ header {
     size: 13;
     font-weight: normal;
 }
-1.price-card-middle .price-m{
+.price-card-middle .price-m{
      color: #FFFFFF;
     font-size: 44;
     font-weight: bold;
