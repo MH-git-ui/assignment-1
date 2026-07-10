@@ -321,3 +321,36 @@ header {
     align-items: center;
     cursor: pointer;
 }
+
+footer {
+    align-items: center;
+    align-content: center;
+    text-align: center;
+    background-color: #0D1B2A;
+    max-width: 100%;
+    height: 70px;
+    color: #FFFFFF;
+    font-size: small;
+    padding: auto;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1400px;
+    margin: auto;
+}
+
+.footer-ul {
+
+    list-style: none;
+    display: flex;
+    gap: 15px;
+
+}
+
+.footer-ul li a {
+
+    text-decoration: none;
+    color: #FFFFFF;
+}
